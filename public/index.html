@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+</head>
+
+<body class="flex">
+
+    <main id="container" class="flex">
+        <h1>Gerador de Senhas</h1>
+
+        <h2 id="showPassword">Selecione as opções</h2>
+
+        <div class="flex flex-left">
+            <h2>
+                <label for="lengthPass">Quantidade de caracteres:</label>
+                <input type="number" name="lengthPass" id="lengthPass" min="0" max="30">
+            </h2>
+
+            <h2>
+                <label for="addNumbers">Adicionar números</label>
+                <input type="checkbox" name="addNumbers" id="addNumbers">
+            </h2>
+
+            <h2>
+                <label for="addUpperCaseLetters">Letras maiúsculas</label>
+                <input type="checkbox" name="addUpperCaseLetters" id="addUpperCaseLetters">
+            </h2>
+
+            <h2>
+                <label for="addLowerCaseLetters">Letras minúsculas</label>
+                <input type="checkbox" name="addLowerCaseLetters" id="addLowerCaseLetters">
+            </h2>
+
+            <h2>
+                <label for="addSymbols">Adicionar símbolos</label>
+                <input type="checkbox" name="addSymbols" id="addSymbols">
+            </h2>
+
+            <button id="genPassword">Gerar Senha</button>
+        </div>
+    </main>
+
+    <footer>
+        <h3><em>Desenvolvido por João Pedro Florenço &copy;</em></h3>
+    </footer>
+
+    <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
